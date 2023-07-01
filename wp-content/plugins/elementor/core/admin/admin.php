@@ -85,9 +85,9 @@ class Admin extends App {
 		$data = require $asset_file;
 
 		return [
-			'handle' => $data['handle'],
-			'src' => $data['src'],
-			'deps' => $data['deps'],
+			// 'handle' => $data['handle'],
+			// 'src' => $data['src'],
+			// 'deps' => $data['deps'],
 		];
 	}
 
